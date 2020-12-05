@@ -1,0 +1,11 @@
+    <script>
+        $(window).scroll(function () { 
+            window.scrollTo(0,0);
+        });
+
+        $(function() {
+            $("body").mousewheel(function(event, delta) {
+                window.scrollTo(10,10);
+            });
+        });
+    </script>
